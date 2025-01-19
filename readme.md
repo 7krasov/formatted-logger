@@ -22,7 +22,7 @@ pub fn init_logger() {
         //targets to allow
         Some(vec!["target1".to_string()]),
         //targets to skip
-        Some(vec!["target2".to_string()]),
+        None,
     );
     log::set_boxed_logger(Box::new(logger)).unwrap();
     let log_level = std::env::var("LOG_LEVEL").unwrap_or_else(|_| "trace".to_string());
