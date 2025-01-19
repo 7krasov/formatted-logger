@@ -1,0 +1,8 @@
+[package]
+name = "formatted_logger"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+log = { version = "0.4", features = ["kv", "kv_unstable", "kv_sval", "kv_serde", "max_level_trace", "release_max_level_info"] }
+serde_json = "1.0"
