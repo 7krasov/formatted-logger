@@ -2,6 +2,8 @@
 name = "formatted_logger"
 version = "0.1.0"
 edition = "2021"
+description = "A simple logger that formats log messages into JSON for the std stream output. Allows to append a hashmap data to a JSON log record."
+license = "MIT"
 
 [dependencies]
 log = { version = "0.4", features = ["kv", "kv_unstable", "kv_sval", "kv_serde", "max_level_trace", "release_max_level_info"] }
