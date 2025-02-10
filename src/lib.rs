@@ -109,6 +109,7 @@ impl JsonLogger {
     }
 }
 
+#[derive(Clone)]
 pub struct HashMapLogData(pub HashMap<String, String>);
 
 impl HashMapLogData {
