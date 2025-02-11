@@ -23,9 +23,6 @@ impl log::Log for JsonLogger {
                 return false;
             }
         }
-        if metadata.target().starts_with("sqlx::query") {
-            return false;
-        }
         true
         // metadata.level() <= log::LevelFilter::Info
     }

@@ -1,6 +1,6 @@
 [package]
 name = "formatted_logger"
-version = "0.2.0"
+version = "0.3.0"
 edition = "2021"
 description = "A simple logger that formats log messages into JSON for the std stream output. Allows to append a hashmap data to a JSON log record."
 license = "MIT"
